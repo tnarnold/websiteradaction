@@ -77,7 +77,7 @@ const content = {
             a4: 'Envie contexto e objetivo; retornamos com um plano de diagnóstico.'
         },
         contact: {
-            title: 'Vamos projetar seus trilhos financeiros.',
+            title: 'Vamos projetar seus trilhos para sua soberania financeira e automação.',
             cta: 'Solicitar diagnóstico'
         },
         footer: {
@@ -146,7 +146,7 @@ const content = {
             a4: 'Send context and objective; we return with a diagnostic plan.'
         },
         contact: {
-            title: 'Let’s design your financial rails.',
+            title: 'Let’s design the rails for your financial sovereignty and automation.',
             cta: 'Request a diagnostic'
         },
         footer: {
