@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(247, 147, 26, 0.3);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #020617; /* slate-950 */
+}

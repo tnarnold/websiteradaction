@@ -1,0 +1,40 @@
+{
+  "name": "websiteradaction",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Website Radaction",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler pages deploy dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radaction/websiteradaction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radaction/websiteradaction/issues"
+  },
+  "homepage": "https://github.com/radaction/websiteradaction#readme",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.0",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^7.3.1",
+    "wrangler": "^4.61.0"
+  }
+}
