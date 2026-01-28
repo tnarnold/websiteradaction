@@ -14,7 +14,7 @@ This command will build the project and deploy the `dist` folder to Cloudflare P
 Alternatively, you can run:
 
 ```bash
-npx wrangler pages deploy dist
+npx wrangler deploy
 ```
 
-> **Note:** Do not run `wrangler deploy` (without `pages`), as that command is for Cloudflare Workers.
+> **Note:** This project is configured as a Cloudflare Worker with Assets.

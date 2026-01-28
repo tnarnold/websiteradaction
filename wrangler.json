@@ -1,5 +1,8 @@
 {
     "name": "websiteradaction",
-    "pages_build_output_dir": "dist",
+    "assets": {
+        "directory": "dist",
+        "binding": "ASSETS"
+    },
     "compatibility_date": "2024-01-27"
 }
