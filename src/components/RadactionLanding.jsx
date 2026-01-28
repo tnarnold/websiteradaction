@@ -37,7 +37,7 @@ const content = {
         },
         thesis: {
             title: 'A Tese',
-            text: 'Dinheiro virou informação. Protocolos viraram soberania. Bitcoin liquida; Lightning circula. A Radaction projeta e opera infraestrutura para que valor se mova como pacotes: rápido, verificável e sem pontos únicos de falha.'
+            text: 'Dinheiro virou informação. Protocolos viraram soberania. Bitcoin liquida. Lightning circula. Valor passa a se mover como pacotes: rápido, verificável e sem pontos únicos de falha.'
         },
         method: {
             title: 'O Método R.A.D.',
@@ -106,7 +106,7 @@ const content = {
         },
         thesis: {
             title: 'The Thesis',
-            text: 'Money became information. Protocols became sovereignty. Bitcoin settles; Lightning circulates. Radaction designs and operates infrastructure so value moves like packets: fast, verifiable, and without single points of failure.'
+            text: 'Money became information. Protocols became sovereignty. Bitcoin settles. Lightning circulates. Value moves like packets: fast, verifiable, and without single points of failure.'
         },
         method: {
             title: 'The R.A.D. Method',
