@@ -242,7 +242,7 @@ export default function RadactionLanding() {
                             <span className="text-slate-700">/</span>
                             <span className={lang === 'en' ? 'text-bitcoin font-bold' : ''}>EN</span>
                         </button>
-                        <a href="https://wa.me/5551989353131" target="_blank" rel="noopener noreferrer" className="bg-slate-100 text-slate-950 px-4 py-2 text-xs font-bold uppercase tracking-wider hover:bg-bitcoin transition-colors rounded-sm">
+                        <a href="https://wa.me/555125005533" target="_blank" rel="noopener noreferrer" className="bg-slate-100 text-slate-950 px-4 py-2 text-xs font-bold uppercase tracking-wider hover:bg-bitcoin transition-colors rounded-sm">
                             {t.nav.cta}
                         </a>
                     </div>
