@@ -1,28 +1,32 @@
 <!doctype html>
 <html lang="en" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Radaction | Infrastructure for the Autonomous Economy</title>
-  </head>
-  <body class="bg-slate-950 text-slate-50 antialiased selection:bg-orange-500/30 selection:text-orange-200 overflow-x-hidden">
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <script>
-      (function(d,t) {
-        var BASE_URL="https://chat.radaction.com.br";
-        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=BASE_URL+"/packs/js/sdk.js";
-        g.async = true;
-        s.parentNode.insertBefore(g,s);
-        g.onload=function(){
-          window.chatwootSDK.run({
-            websiteToken: '4hfVg2GqfVP68p11DaCmbEQj',
-            baseUrl: BASE_URL
-          })
-        }
-      })(document,"script");
-    </script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radaction | Infrastructure for the Autonomous Economy</title>
+</head>
+
+<body
+  class="bg-slate-950 text-slate-50 antialiased selection:bg-orange-500/30 selection:text-orange-200 overflow-x-hidden">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    (function (d, t) {
+      var BASE_URL = "https://chat.radaction.com.br";
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = BASE_URL + "/packs/js/sdk.js";
+      g.async = true;
+      s.parentNode.insertBefore(g, s);
+      g.onload = function () {
+        window.chatwootSDK.run({
+          websiteToken: '1Jquxe4RtefrhaG8vFJLdZcS',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document, "script");
+  </script>
+</body>
+
 </html>
